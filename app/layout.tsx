@@ -1,11 +1,15 @@
-import "../styles/global.css";
 import { Metadata } from "next";
+
+// ... existing imports ...
+import "../styles/global.css";
 
 export const metadata: Metadata = {
   title: "Remotion and Next.js",
   description: "Remotion and Next.js",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
+
+
 
 export default function RootLayout({
   // Layouts must accept a children prop.
