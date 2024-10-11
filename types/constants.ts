@@ -29,6 +29,6 @@ export const defaultMyCompProps: z.infer<typeof CompositionProps> = {
 export const COMP_NAME = "wrapped";
 export const VIDEO_WIDTH = 1080;
 export const VIDEO_HEIGHT = 1920;
-export const VIDEO_FPS = 30;
+export const VIDEO_FPS = 120;
 export const DURATION_IN_MINUTES = 1;
 export const DURATION_IN_FRAMES = DURATION_IN_MINUTES * 60 * VIDEO_FPS;
